@@ -141,7 +141,7 @@ body{
     color: var(--font-color-text);
    
 }
-.four-boxes li:nth-last-child(1){
+.four-boxes .four-boxes-item:nth-last-child(1){
     margin-right: 0px;
 }
 /*Styling box "czym się zajmujemy"*/
@@ -222,17 +222,19 @@ body{
 }
 /*Footer*/
 .footer-box{
-    flex-direction: column;
+    display: block;
     background-color: var(--background-color-footer);
     height: 252px;
     
 }
 .logo-footer-decor{
     color: var(--font-color-white);
-    margin-top: 60px;
+}
+.logo-footer{
+    padding-top: 60px;
     margin-bottom: 20px;
 }
-.footer-address li{
+.footer-address .footer-item{
     margin-left: 215px;
 }
 .footer-address{
