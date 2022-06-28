@@ -38,7 +38,7 @@ body{
 }
 
 .container{
-    width: 1600px;
+    max-width: 1600px;
     display: flex;
     margin:auto;
     justify-content: center;
@@ -99,7 +99,7 @@ body{
     color: var(--font-color-white);
     font-weight: 900;
     text-transform: uppercase;
-    width: 696px;
+    max-width: 696px;
     text-align: center;
 }
 .button{
@@ -168,8 +168,8 @@ body{
 }
 .picture{
    
-    width: 370px;
-    height: 294px;
+    max-width: 370px;
+    max-height: 294px;
 }
 .picture-box-item{
     margin-right: 30px;
@@ -203,8 +203,8 @@ body{
       margin-right: 30px;
 }
 .our-team-item{
-    width: 270px;
-    height: 368px;
+    max-width: 270px;
+    max-height: 368px;
     background: var(--background-color-body);
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
@@ -302,7 +302,7 @@ body{
 }
 .portfolio-item{
     flex-basis: calc(100%)/3;
-    width: 368px;
+    max-width: 368px;
     height: 404px;
     border-width: 1px;
     border-color: var(--background-color-three);
@@ -310,8 +310,8 @@ body{
 
 }
 .picture-portfolio{
-    width: 370px;
-    height: 294px;
+    max-width: 370px;
+    max-height: 294px;
 }
 .cont-margin{
     margin-left: 215px;
